@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Black';
+    src: url(../fonts/Gilroy-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(../fonts/Gilroy-UltraLight.ttf);
+}

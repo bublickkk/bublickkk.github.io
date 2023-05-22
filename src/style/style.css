@@ -1,0 +1,68 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.bg {
+    background-color: #1f1f1f;
+    border-radius: 25px; 
+    width: 1890px;
+    height: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.avatar {
+    width: 300px !important;
+    height: 200px !important;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0.01px 5px #ff6f00;
+}
+
+.social-card a {
+    text-decoration: none;
+    font-family: 'Light';
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    padding: 5px;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.social-card a:hover {
+    color: #ff6f00;
+    transition: all 0.2s ease;
+}
+
+.social-card {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sn_ico {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+p {
+    font-family: 'Black';
+    color: #fff;
+}

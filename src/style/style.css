@@ -66,3 +66,9 @@ p {
     font-family: 'Black';
     color: #fff;
 }
+
+@media screen and (max-width: 1400px) {
+    div.bg {
+    flex-direction: column;
+}
+}

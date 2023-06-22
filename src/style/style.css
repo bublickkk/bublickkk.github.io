@@ -49,6 +49,8 @@ body {
     margin: 5px;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    text-align: center;
 }
 
 .grid {
@@ -67,8 +69,17 @@ p {
     color: #fff;
 }
 
-@media screen and (max-width: 1400px) {
-    div.bg {
-    flex-direction: column;
+a {
+  text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+  div.bg {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  div.grid {
+    flex-direction: column;
+  }
 }
